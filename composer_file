@@ -23,3 +23,11 @@
         "nunomaduro/collision": "^3.0",
         "phpunit/phpunit": "^8.0"
     },
+
+"extra": {
+        "laravel": {
+            "dont-discover": [
+                "laravolt/acl"
+            ]
+        }
+    },
