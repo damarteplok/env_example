@@ -7,7 +7,7 @@ Laravolt/workflow menggunakan framework **laravel** dan **camunda engine**, past
  1. Pastikan sudah terdapat file bpmn dan server camunda nya
  2. Pastikan file bpmn sudah ter deploy di server camunda dan sudah terdapat minimal satu **process definitions**
  3. `cd` ke folder yang diinginkan
- 4. buat **new laravel app** dengan perintah `php
+ 4. buat **new laravel app** dengan perintah `
 composer create-project --prefer-dist laravel/laravel nama_aplikasi`
  atau `laravel new nama_aplikasi`
  3. `cd nama_aplikasi`
