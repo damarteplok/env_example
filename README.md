@@ -18,7 +18,7 @@ composer create-project --prefer-dist laravel/laravel nama_aplikasi`
  8. buka link ini [contoh composer json](https://github.com/damarteplok/env_example/blob/master/composer_file)
  9. edit `composer.json` , ganti bagian `require` , `require-dev`, dan `extra` anda dengan link pada no 10 tadi
  10.  `composer update`, tunggu sampai selesai
- 11. `php artisan vendor:publish` pilih yang ada tulisan UI, epicentrum, media, auth ini untuk custom supaya gk pake bawaan laravel, kalau kepengen gampangnya yakni, publish all
+ 11. `php artisan vendor:publish` pilih yang ada tulisan UI, epicentrum, media, platform ini untuk custom supaya gk pake bawaan laravel, kalau kepengen gampangnya yakni, publish all
  12. `php artisan migrate`
  13. `php artisan storage:link`
  14. `php artisan laravolt:link`
