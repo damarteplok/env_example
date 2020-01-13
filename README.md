@@ -24,8 +24,9 @@ composer create-project --prefer-dist laravel/laravel nama_aplikasi`
  13. `php artisan storage:link`
  14. `php artisan laravolt:link`
  15. copy file `Home.php` dana `Dashboard.php` paste kan di folder `app/Http/Controllers`
- 16. edit `web.php` ganti route nya, sesuai kan dengan ini
- 17. `Route::get('/', 'Home')->name('home');
+ 16. copy file `dashboard.blade.php` paste kan di folder `resource/views/`
+ 17. edit `web.php` ganti route nya, sesuai kan dengan ini
+ 18. `Route::get('/', 'Home')->name('home');
 Route::get('/dashboard', 'Dashboard')->name('dashboard')`;
  17. ganti file `user.php` dengan file yang terdapat pada [link ini](https://github.com/damarteplok/env_example/blob/master/user.php)
  18. jalankan `php artisan laravolt:admin` untuk membuat admin beserta password di applikasinya
