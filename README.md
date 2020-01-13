@@ -34,5 +34,6 @@ Route::get('/dashboard', 'Dashboard')->name('dashboard')`;
  21. jalankan `php artisan workflow:make` utk membuat configurasi dari proses definition camunda yang udah terinisialisasi dengan command pada no 16
  22. jalankan `php artisan workflow:sync-module` ini untuk melakukan sync dr perubahan lokal ke camunda, lakukan command tersebut utk pertama kali setelah `php artisan workflow:make` atau ada perubahan pada `config/workflow-modules/`
  23. `php artisan serve` done
- 24. untuk lebih lengkap nya bisa membaca documentasi di [laravolt.dev](https://laravolt.dev/)
+ 24. silahkan login dengan email dan password yang sudah di buat tadi di no 21
+ 25. untuk lebih lengkap nya bisa membaca documentasi di [laravolt.dev](https://laravolt.dev/)
     
